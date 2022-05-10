@@ -1,0 +1,15 @@
+.tagz-wallet{
+  width:375px !important
+}
+.balance-div {
+  border: 2px solid #e4e8eb;
+  border-radius: 10px;
+}
+.wallet-btn:focus {
+  box-shadow: none !important;
+}
+@media (max-width: 440px) {
+  .tagz-wallet {
+    width: 90% !important;
+  }
+}

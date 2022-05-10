@@ -1,0 +1,252 @@
+// Tagz //
+
+$text-color: black;
+$orange: #f3841d;
+$text-grey-color: #5f646c;
+$background: white;
+$form-background: white;
+// $form-background:#41464b;
+
+// connect-wallet-btn //
+.connect-wallet-btn {
+  align-items: center;
+  border: 0;
+  border-radius: 8px !important;
+  box-shadow: 0px -1px 0px 0px rgb(14 14 44 / 40%) inset;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  padding: 10 24px !important;
+  background-color: #f3841d !important;
+  color: white !important;
+}
+
+// Footer And Navbar //
+.text-decor-none{
+  text-decoration: none !important;
+}
+body {
+  background-color: $background !important;
+}
+.text-color {
+  color: $text-color !important;
+}
+.grey-color {
+  color: $text-grey-color !important;
+}
+.tagz-color {
+  color: $orange;
+}
+.blue-color {
+  color: #3671e2;
+}
+.form-bg {
+  background: $form-background !important;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+.navbar-search {
+  border-radius: 60px !important;
+  color: $text-color !important;
+}
+.wallet-icon {
+  height: 21px;
+  width: 25px;
+  margin: 4px 14px !important;
+  cursor: pointer;
+}
+.navbar {
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
+}
+.navbar-search:focus {
+  outline: none !important;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px !important;
+  border-color: rgb(4 17 29 / 25%) !important;
+}
+.nav-link {
+  padding: 4px 14px !important;
+  font-size: 16px;
+  font-weight: 600;
+  color: $text-color !important;
+}
+.item {
+  border-bottom: 2px solid $orange !important;
+}
+.font-size-50 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.line-height-48 {
+  line-height: 48px;
+}
+.footer-ul {
+  padding-left: 0px !important;
+  list-style-type: none !important;
+}
+.footer-ul-header {
+  font-size: 18px;
+  font-weight: 600;
+}
+.pointer {
+  cursor: pointer;
+}
+.footer-icon {
+  font-size: 25px;
+}
+.mail-font {
+  font-size: 15px;
+  font-weight: 500;
+}
+.position-relative {
+  position: relative;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .search-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #5f646c;
+}
+
+@media (max-width: 578px) {
+  .font-size-50 {
+    font-size: 42px;
+  }
+}
+
+// experience card  //
+.experience-card-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: inline-block;
+  border: 1px solid rgb(229, 232, 235);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+// profile-btn //
+.save-btn {
+  background-color: black !important;
+  color: white !important;
+  border: none !important;
+}
+// nft detail //
+.nft-owner {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.border-bottom-grey {
+  border-bottom: 1px solid #b3b4b6 !important;
+}
+.price-box {
+  border: 2px solid #b3b4b6;
+  border-radius: 8px;
+}
+
+// nftcard //
+.nft-img {
+  border-radius: 8px;
+}
+.nftcard-owner-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.nft-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.text-decor {
+  text-decoration: underline $text-grey-color;
+}
+.border-8 {
+  border-radius: 12px !important;
+}
+
+// explore //
+.location-checkbox > input {
+  cursor: pointer;
+}
+.location-checkbox > input:checked {
+  background-color: #252729;
+  border-color: #252729;
+}
+.location-checkbox > input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #dddddd;
+}
+
+.explore-tabs {
+  background: #f2f2f2 !important;
+  margin: 8px !important;
+  border-radius: 12px !important;
+  padding: 6px 20px !important;
+}
+.explore-tabs.active {
+  background-color: #252729 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 12px !important;
+}
+.explore-dropdown {
+  padding: 6px 36px !important;
+  border: 1px solid #dddddd !important;
+  background-color: transparent !important;
+  border-radius: 16px !important;
+  color: #252729 !important;
+}
+.explore-dropdown:focus {
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 5px !important;
+}
+.border-explore-right {
+  border-right: 1px solid #dddddd;
+}
+@media (max-width: 992px) {
+  .border-explore-right {
+    border-right: 0px !important;
+  }
+}
+.explore-drop-item {
+  border-radius: 10px !important;
+}
+.explore-drop-menu {
+  border-radius: 14px !important;
+}
+.explore-drop-item:active {
+  background-color: #252729 !important;
+  color: white !important;
+}
+
+.loader > svg {
+  fill: #f3841d !important;
+}
